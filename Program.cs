@@ -16,6 +16,7 @@ namespace _1_zh
             x = int.Parse(Console.ReadLine());
             while (x>xMax-10)
             {
+                Console.Write("Túl nagy a megadott szám!\nKérem adjon meg egy kisebb számot: ");
                 x = int.Parse(Console.ReadLine());
             }
 
@@ -23,6 +24,7 @@ namespace _1_zh
             y = int.Parse(Console.ReadLine());
             while (y > yMax - 10)
             {
+                Console.Write("Túl nagy a megadott szám!\nKérem adjon meg egy kisebb számot: "); 
                 y = int.Parse(Console.ReadLine());
             }
 
